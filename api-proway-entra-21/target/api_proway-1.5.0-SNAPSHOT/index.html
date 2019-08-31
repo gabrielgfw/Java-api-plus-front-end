@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html ng-app="appTeste">
+
+<head>
+    <meta charset="UTF-8" />
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.8/angular.min.js"></script>
+    <script src="./js/controllers/indexController.js"></script>
+    <title>Teste com angular</title>
+</head>
+
+<body ng-controller="indexController">
+    Olá {{ nome }} - {{ sobreNome }}
+
+<br>
+<input type="text" ng-model="chamado.assunto">
+<input type="text" ng-model="chamado.status">
+<input type="text" ng-model="chamado.mesagem">
+<input type="button" value="Salvar">
+
+
+
+
+
+    <div ng-repeat="chamado in listaChamado">
+        {{chamado.id +'|'+chamado.assunto}}
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,8 @@
+br\com\proway\api\controller\ChamadoController.class
+br\com\proway\api\MyApplication.class
+br\com\proway\api\data\ConexaoJDBC.class
+br\com\proway\api\model\Chamado.class
+br\com\proway\api\model\util\Status.class
+br\com\proway\api\controller\HelloController.class
+br\com\proway\api\data\ConexaoMysqlJDBC.class
+br\com\proway\api\dao\ChamadoDAO.class
